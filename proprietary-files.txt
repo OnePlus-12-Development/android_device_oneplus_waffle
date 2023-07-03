@@ -152,7 +152,8 @@ odm/etc/sensor/config/salami_qrd_ois_system.json
 odm/etc/sensor/sensor_config.json
 
 # WiFi
-odm/etc/wifi/bdwlan.elf
-odm/etc/wifi/bdwlang.elf
-odm/etc/wifi/regdb.bin
-odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
+odm/etc/wifi/kiwi/bdwlan.b0a
+odm/etc/wifi/kiwi/bdwlan.b0e
+odm/etc/wifi/kiwi/bdwlan.b0i
+odm/etc/wifi/kiwi/bdwlan.elf
+odm/etc/wifi/kiwi/regdb.bin
