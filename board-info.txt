@@ -1,1 +1,1 @@
-require board=kalama|OnePlus11
+require board=kalama|OP594DL1
