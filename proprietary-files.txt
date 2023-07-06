@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 11 (CPH2449_11_A.10).
+## are from OnePlus 11 (CPH2449_11_A.23).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -79,6 +79,7 @@ odm/etc/camera/config/oplus_camera_aps_config
 odm/etc/camera/config/oplus_camera_config
 odm/etc/camera/config/s5k3p9
 odm/etc/camera/config/s5kjn1sq03
+odm/etc/camera/config/sr_params.xml
 odm/etc/camera/config/video_beauty_default_config
 odm/etc/camera/settings_fdc.txt
 odm/etc/camera/settings_fdc_lite.txt
