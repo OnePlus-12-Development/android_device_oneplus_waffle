@@ -9,6 +9,9 @@ include device/oneplus/sm8550-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oneplus/salami
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := OP591BL1,OP594DL1
+
 # Display
 TARGET_SCREEN_DENSITY := 450
 
