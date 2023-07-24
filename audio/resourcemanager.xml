@@ -76,7 +76,8 @@
         <param key="max_sessions" value="128"/>
         <param key="max_nonTunnel_sessions" value="4"/>
         <param key="logging_level" value ="7" />
-        <param key="context_manager_enable" value ="false" />
+        <!-- huifangfang@Communication.Develop, 2023/04/25, add for 4164490 google rsa4.0 chre nanoapp -->
+        <param key="context_manager_enable" value ="true" />
         <param key="lpi_logging_enable" value ="false" />
         <param key="upd_dedicated_be" value ="true" />
         <param key="signal_handler" value ="true" />
@@ -94,6 +95,13 @@
         <param key="oplus_hdr_record" value="true"/>
         <!-- YeWenliang@MULTIMEDIA.AUDIODRIVER, 2021/08/27, Add for smartpa power monitor -->
         <param key="support_smartpa_pm" value="true"/>
+        <!-- Zhao.Pan@MULTIMEDIA.AUDIODRIVER.FEEDBACK, 2022/04/12, add for speaker err feedback -->
+        <param key="oplus_check_speaker" value="true"/>
+        <!-- Zhao.Pan@MULTIMEDIA.AUDIODRIVER.FEEDBACK, 2022/04/12, add for lvvefq err feedback -->
+        <param key="oplus_lvve_err_fb" value="true"/>
+        <!-- Huangzilong@MULTIMEDIA.AUDIODRIVER.FEEDBACK, 2022/10/09, add for err feedback -->
+        <param key="oplus_underrun_fb" value="true"/>
+        <param key="oplus_record_low_pressure" value="true"/>
         <!-- YeWenliang@MULTIMEDIA.AUDIODRIVER, 2021/08/31, Add for ear protection -->
         <param key="oplus_ear_protection_enable" value="true"/>
         <!-- YeWenliang@MULTIMEDIA.AUDIODRIVER, 2021/10/21, Add for power analysis -->
@@ -104,6 +112,9 @@
         <param key="adsp_ssr_support" value="yes"/>
         <!-- YeWenliang@MULTIMEDIA.AUDIODRIVER, 2022/09/05, Add for mute speaker before device stop -->
         <param key="mute_speaker_enable" value="true"/>
+        <!-- Huangzilong@MULTIMEDIA.AUDIODRIVER, 2022/09/20, Add for 4ch aec -->
+        <param key="oplus_4ch_aec_enable" value="false"/>
+        <param key="oplus_ref_channel_count" value ="2" />
     </config_params>
     <config_volume>
         <use_volume_set_param>1</use_volume_set_param>
