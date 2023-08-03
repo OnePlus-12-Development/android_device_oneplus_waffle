@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 11 (CPH2449_11_A.23).
+## are from OnePlus 11 (CPH2449_13.1.0.590(EX01)).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
