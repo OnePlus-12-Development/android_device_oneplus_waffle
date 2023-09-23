@@ -202,6 +202,11 @@ odm/etc/sensor/config/lux_aod.json
 odm/etc/sensor/config/salami_qrd_ois_system.json
 odm/etc/sensor/sensor_config.json
 
+# Touchscreen firmware
+odm/firmware/tp/22811/FW_S3908_SAMSUNG.img
+odm/firmware/tp/22811/FW_S3908_SAMSUNG_FAE.img
+odm/firmware/tp/22811/LIMIT_S3908_SAMSUNG.img
+
 # WiFi
 odm/etc/wifi/kiwi/bdwlan.b0a
 odm/etc/wifi/kiwi/bdwlan.b0e
