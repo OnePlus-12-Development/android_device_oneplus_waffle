@@ -115,6 +115,8 @@
         <!-- Huangzilong@MULTIMEDIA.AUDIODRIVER, 2022/09/20, Add for 4ch aec -->
         <param key="oplus_4ch_aec_enable" value="false"/>
         <param key="oplus_ref_channel_count" value ="2" />
+        <!-- zhangrun@MULTIMEDIA.AUDIODRIVER, 2023/02/22, add for support call record in ocar mode -->
+        <param key="ocar_mode_support" value="true"/>
     </config_params>
     <config_volume>
         <use_volume_set_param>1</use_volume_set_param>

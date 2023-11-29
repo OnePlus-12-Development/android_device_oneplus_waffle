@@ -387,9 +387,25 @@
         </props>
     </compress-device>
 
+    <!-- #ifdef OPLUS_FEATURE_OCAR_AUDIO -->
+    <!-- YeWenliang@MULTIMEDIA.AUDIODRIVER.HAL, 2022/09/06, add for support call record in ocar mode -->
     <pcm-device>
         <id>125</id>
         <name>PCM125</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>0</playback>
+            <capture>1</capture>
+            <session_mode>2</session_mode>
+        </props>
+    </pcm-device>
+    <!-- #endif OPLUS_FEATURE_OCAR_AUDIO -->
+
+    <pcm-device>
+        <id>126</id>
+        <name>PCM126</name>
         <pcm_plugin>
             <so-name>libagm_pcm_plugin.so</so-name>
         </pcm_plugin>

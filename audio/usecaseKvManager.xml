@@ -155,6 +155,12 @@
                 <!-- STREAMTX - INCALL_RECORD -->
                 <graph_kv key="0xB1000000" value="0xB100000C"/>
             </keys_and_values>
+            <keys_and_values SubType="PAL_STREAM_VOICE_CALL_RECORD_DOWNLINK">
+                <!-- STREAMTX - INCALL_RECORD -->
+                <graph_kv key="0xB1000000" value="0xB100000C"/>
+                <!-- PROXY_TX_TYPE - PROXY_TX_VOICE_RX -->
+                <graph_kv key="0xD1000000" value="0xD1000003"/>
+            </keys_and_values>
         </stream>
         <!-- Voice stream -->
         <stream type="PAL_STREAM_VOICE_CALL">
