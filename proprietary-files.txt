@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 11 (CPH2449_13.1.0.596(EX01)).
+## are from OnePlus 11 (CPH2449_14.0.0.201(EX01)).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -67,6 +67,7 @@ odm/etc/lvacfs_params/2mic/audiozoom_9.txt
 # Camera
 odm/etc/camera/CameraHWConfiguration.config
 odm/etc/camera/camera_engmode.xml
+odm/etc/camera/config/camera_third_party_feature_config.protobuf
 odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/camera_unit_feature_config.protobuf
 odm/etc/camera/config/imx581
@@ -77,6 +78,8 @@ odm/etc/camera/config/oem_layer_config
 odm/etc/camera/config/oplus_camera_algo_switch_config
 odm/etc/camera/config/oplus_camera_aps_config
 odm/etc/camera/config/oplus_camera_config
+odm/etc/camera/config/oplus_camera_preview_decision_config.json
+odm/etc/camera/config/oplus_preview_decision_params.json
 odm/etc/camera/config/s5k3p9
 odm/etc/camera/config/s5kjn1sq03
 odm/etc/camera/config/sr_params.xml
@@ -194,8 +197,10 @@ odm/etc/sensor/config/kailua_mtp_alsps_hw_tcs3701.json
 odm/etc/sensor/config/kailua_mtp_bmi26x.json
 odm/etc/sensor/config/kailua_mtp_bmp380.json
 odm/etc/sensor/config/kailua_mtp_cct_rear.json
+odm/etc/sensor/config/kailua_mtp_freefall.json
 odm/etc/sensor/config/kailua_mtp_icm4x6xx.json
 odm/etc/sensor/config/kailua_mtp_mmc56x3x.json
+odm/etc/sensor/config/kailua_mtp_oplus_lay.json
 odm/etc/sensor/config/kailua_mtp_sx933x_0.json
 odm/etc/sensor/config/kailua_mtp_sx933x_down_0.json
 odm/etc/sensor/config/lux_aod.json
@@ -205,6 +210,7 @@ odm/etc/sensor/sensor_config.json
 # Touchscreen firmware
 odm/firmware/tp/22811/FW_S3908_SAMSUNG.img
 odm/firmware/tp/22811/FW_S3908_SAMSUNG_FAE.img
+odm/firmware/tp/22811/FW_S3908_SAMSUNG_sys_edge_touch_config.img
 odm/firmware/tp/22811/LIMIT_S3908_SAMSUNG.img
 
 # WiFi
