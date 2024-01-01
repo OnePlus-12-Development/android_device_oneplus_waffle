@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_device_oneplus_sm8550-common",
-    "target_path": "device/oneplus/sm8550-common"
+    "repository": "android_device_oneplus_sm8650-common",
+    "target_path": "device/oneplus/sm8650-common"
   }
 ]
