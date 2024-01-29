@@ -100,7 +100,7 @@
         <!-- Zhao.Pan@MULTIMEDIA.AUDIODRIVER.FEEDBACK, 2022/04/12, add for lvvefq err feedback -->
         <param key="oplus_lvve_err_fb" value="true"/>
         <!-- Huangzilong@MULTIMEDIA.AUDIODRIVER.FEEDBACK, 2022/10/09, add for err feedback -->
-        <param key="oplus_underrun_fb" value="true"/>
+        <param key="oplus_underrun_fb" value="false"/>
         <param key="oplus_record_low_pressure" value="true"/>
         <!-- YeWenliang@MULTIMEDIA.AUDIODRIVER, 2021/08/31, Add for ear protection -->
         <param key="oplus_ear_protection_enable" value="true"/>
