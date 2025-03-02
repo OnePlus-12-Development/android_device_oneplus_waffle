@@ -1,6 +1,8 @@
 cc_library_shared {
     name: "libqtivibratoreffect.oplus.waffle",
-    export_include_dirs: ["."],
+    header_libs: [
+        "libqtivibratoreffect_headers",
+    ],
     shared_libs: [
         "libcutils",
         "libutils",
