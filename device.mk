@@ -26,6 +26,9 @@ TARGET_SCREEN_WIDTH := 1440
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946450791512195.xml
 
+# Fingerprint
+$(call soong_config_set_bool,qtidisplay,oplus_udfps,true)
+
 # Keymint
 PRODUCT_PACKAGES += \
     android.hardware.security.keymint3-service.strongbox.nxp \
