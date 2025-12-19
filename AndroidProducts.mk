@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_waffle.mk
+    $(LOCAL_DIR)/custom_waffle.mk
