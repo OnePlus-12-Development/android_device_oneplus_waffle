@@ -26,6 +26,9 @@ TARGET_SCREEN_WIDTH := 1440
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946450791512195.xml
 
+$(call soong_config_set,qtidisplay,pxlw_vendor_namespace,vendor/oneplus/waffle)
+$(call soong_config_set_bool,qtidisplay,pxlw_hw_iris7,true)
+
 # Fingerprint
 $(call soong_config_set_bool,qtidisplay,oplus_udfps,true)
 
