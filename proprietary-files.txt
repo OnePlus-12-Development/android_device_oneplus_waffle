@@ -2294,13 +2294,11 @@ odm/lib64/libdisplayaidlapis.so
 odm/lib64/libdisplaycolorfeature.so
 odm/lib64/libdisplayfossfeature_nature.so
 odm/lib64/libdpaservice.so
-odm/lib64/vendor.oplus.hardware.displaycolorfeature-V1-ndk.so
 vendor/etc/2024-01-12_platform_RSA_license_a226ad89-a187-4b14-9447-d20bfe9dac1a.pfm
 vendor/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm
 vendor/lib64/libcwb_client_vendor.so
 vendor/lib64/libcwb_qcom_aidl.so
 vendor/lib64/libdtlm.so
-vendor/lib64/vendor.oplus.hardware.displaycolorfeature-V1-ndk.so;MODULE_SUFFIX=_vendor
 
 # Sensors
 vendor/lib64/sensors.qsh.so
